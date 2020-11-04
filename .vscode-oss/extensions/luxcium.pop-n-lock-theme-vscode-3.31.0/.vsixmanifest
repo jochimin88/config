@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Language="en-US" Id="pop-n-lock-theme-vscode" Version="3.31.0" Publisher="Luxcium"/>
+    <DisplayName>Pop N&#39; Lock Theme by Luxcium ✨</DisplayName>
+    <Description xml:space="preserve">🐲 Perfectly balanced TypeScript theme with vivid colours.</Description>
+    <Tags>Dark Theme,Syntax,Italic Theme,Shades of Purple,Cursive,theme,color-theme,typescript,TypeScript (Luxcium),__ext_ts,typescriptreact,TypeScript React (Luxcium),__ext_tsx,javascript,JavaScript (Luxcium),__ext_js,javascriptreact,JavaScript React (Luxcium),__ext_jsx,json,JSON,__ext_json,jsonc,JSON with Comments,__ext_jsonc,yaml,YAML,__ext_yml,__ext_yaml,html,HTML,__ext_html,__ext_htm,css,CSS,__ext_css</Tags>
+    <Categories>Programming Languages,Themes,Extension Packs</Categories>
+    <GalleryFlags>Public</GalleryFlags>
+    <Badges><Badge Link="https://github.com/luxcium/pop-n-lock-theme-vscode/stargazers" ImgUri="https://img.shields.io/github/stars/luxcium/pop-n-lock-theme-vscode.svg?style=social" Description="GitHub stars" /><Badge Link="https://github.com/luxcium/pop-n-lock-theme-vscode/issues" ImgUri="https://img.shields.io/github/issues/luxcium/pop-n-lock-theme-vscode.svg?style=social" Description="GitHub issues" /><Badge Link="https://github.com/luxcium/pop-n-lock-theme-vscode/graphs/contributors" ImgUri="https://img.shields.io/github/contributors-anon/luxcium/pop-n-lock-theme-vscode.svg?style=social" Description="GitHub contributors" /><Badge Link="https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&amp;ssr=false#review-details" ImgUri="https://img.shields.io/visual-studio-marketplace/i/Luxcium.pop-n-lock-theme-vscode?color=green" Description="Theme Installs" /><Badge Link="https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&amp;ssr=false#review-details" ImgUri="https://img.shields.io/visual-studio-marketplace/d/Luxcium.pop-n-lock-theme-vscode?color=green" Description="Theme Downloads" /><Badge Link="https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode" ImgUri="https://snyk.io/test/github/Luxcium/pop-n-lock-theme-vscode/badge.svg" Description="Known Vulnerabilities (Snyk.io)" /><Badge Link="https://marketplace.visualstudio.com/items?itemName=Luxcium.pop-n-lock-theme-vscode&amp;ssr=false#review-details" ImgUri="https://img.shields.io/visual-studio-marketplace/stars/luxcium.pop-n-lock-theme-vscode.svg?color=48A&amp;label=Pop%20N%27%20Lock" Description="Visual Studio Marketplace Rating (Stars)" /></Badges>
+    <Properties>
+      <Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.36.0" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="coenraads.bracket-pair-colorizer-2,aaron-bond.better-comments,pkief.material-icon-theme" />
+      <Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="" />
+      
+        <Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/luxcium/pop-n-lock-theme-vscode.git" />
+        <Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/luxcium/pop-n-lock-theme-vscode.git" />
+        
+          <Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/luxcium/pop-n-lock-theme-vscode.git" />
+        
+      
+      <Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/luxcium/pop-n-lock-theme-vscode/issues" />
+      <Property Id="Microsoft.VisualStudio.Services.Links.Learn" Value="https://github.com/luxcium/pop-n-lock-theme-vscode/#readme" />
+      <Property Id="Microsoft.VisualStudio.Services.Branding.Color" Value="#202135" />
+      <Property Id="Microsoft.VisualStudio.Services.Branding.Theme" Value="dark" />
+      <Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+      <Property Id="Microsoft.VisualStudio.Services.EnableMarketplaceQnA" Value="true" />
+      
+    </Properties>
+    <License>extension/LICENSE.txt</License>
+    <Icon>extension/Scientia-is-lux-principium-400px-TM.png</Icon>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+  </Installation>
+  <Dependencies/>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+    <Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Content.License" Path="extension/LICENSE.txt" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/Scientia-is-lux-principium-400px-TM.png" Addressable="true" />
+  </Assets>
+</PackageManifest>

@@ -10,7 +10,9 @@ fi
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-screenfetch | lolcat -F 199919 -a -t -s 5000
+#screenfetch | lolcat -F 199919 -a -t -s 5000
+
+screenfetch -D "Arch" | lolcat -F 199918 -a -t -s 5000
 # Path to your oh-my-zsh installation.
 export ZSH="/home/jochimin/.oh-my-zsh"
 
@@ -26,7 +28,6 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Plugins
 
 plugins=(
-    git
     zsh-autosuggestions
     extract
     colorize
@@ -34,6 +35,8 @@ plugins=(
     colored-man-pages
     web-search
     )
+
+
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -127,6 +130,7 @@ source $ZSH/oh-my-zsh.sh
 #
 # other
 #alias ..='cd ..'
+
 alias glog='setterm -linewrap off && git glog && setterm -linewrap on'
 alias scss='scss --no-cache --quiet --sourcemap=none'
 alias xclip='xclip -selection c'
@@ -134,7 +138,8 @@ alias more=less
 alias update='yes | sudo pacman -Syu'
 alias reload='source ~/.zshrc'
 alias speedtest='speedtest | lolcat -a -S -t -s 20'
-
+alias cp='/usr/local/bin/cp -gR'
+alias mv='/usr/local/bin/mv -g'
 
 # ----------------------------------- MISC -----------------------------------
 export VISUAL=nvim
@@ -158,3 +163,4 @@ alias egrep='egrep --color=auto'
 alias diff='diff --color=auto'
 alias pacman='pacman --color=auto'
 alias cat='ccat'
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
