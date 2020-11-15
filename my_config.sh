@@ -18,7 +18,7 @@ yes | pacman -S screenfetch lolcat speedtest-cli lsd powerline powerline-common 
 echo "screenfetch | lolcat -F 199919 -a -t -s 5000" >> ~/.zshrc
 
 # install gcc and other build
-yes | sudo pacman -S make gcc gcc-libs coreutils p7zip patch ruby go fakeroot xclip wine axel tar --noconfirm
+yes | sudo pacman -S make gcc gcc-libs coreutils p7zip patch ruby go fakeroot xclip wine axel tar unzip unrar--noconfirm
 
 # remove packages
 sudo pacman -Rc snapd --noconfirm
