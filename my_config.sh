@@ -18,7 +18,113 @@ yes | pacman -S screenfetch lolcat speedtest-cli lsd powerline powerline-common 
 echo "screenfetch | lolcat -F 199919 -a -t -s 5000" >> ~/.zshrc
 
 # install gcc and other build
-yes | sudo pacman -S make gcc gcc-libs coreutils automake m4 p7zip patch ruby go fakeroot xclip wine axel tar unzip unrar--noconfirm
+yes | sudo pacman -S make\
+  gcc\
+  gcc-libs\
+  coreutils\ 
+  automake \
+  m4\
+  p7zip\
+  patch\
+  ruby\
+  go\
+  fakeroot\
+  xclip\
+  wine\
+  axel\
+  tar\
+  unzip\
+  unrar\
+  alsa-utils
+  android-tools
+  android-udev
+  aspell-en
+  autoconf
+  automake
+  bash
+  bluedevil
+  btrfs-progs
+  bzip2
+  chromium
+  coreutils
+  cpupower
+  cryptsetup
+  docker
+  dotnet-runtime-bin
+  dotnet-sdk-bin
+  fakeroot
+  ffmpeg
+  firefox
+  fwupd
+  gawk
+  gcc
+  gcc-libs
+  glibc
+  gparted
+gzip
+htop
+httpie
+inxi
+ipython
+languagetool
+lolcat
+lsd
+make
+man-db
+man-pages
+nano
+neofetch
+neovim
+net-tools
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+ntp
+numlockx
+openssh
+p7zip
+pacman
+pamac-cli
+partitionmanager
+patch
+pciutils
+powerdevil
+powerline
+powertop
+print-manager
+procps-ng
+pulseaudio-bluetooth
+pulseaudio-ctl
+pulseaudio-zeroconf
+python-pillow
+python-pip
+python-pyqt5
+python-pysmbc
+python-reportlab
+screenfetch
+speedtest-cli
+tar
+terminus-font
+tlp
+ttf-dejavu
+ttf-droid
+ttf-inconsolata
+ttf-indic-otf
+ttf-liberation
+unrar
+util-linux
+vlc
+wget
+which
+wine
+xclip
+xz
+yakuake
+yay
+youtube-dl
+zsh-theme-powerlevel10k
+
+  --noconfirm
 
 # remove packages
 sudo pacman -Rc snapd --noconfirm
