@@ -1,0 +1,97 @@
+
+# set font
+setfont /usr/share/kbd/consolefonts/sun12x22.psfu.gz
+
+# select your wifi
+ type wifi-menu
+1.) type the command "iwctl" and press enter ( this will bring you inside the [ iwd ] menu )
+2.) type "device list" and press enter. This will show you the wifi device ( for example wlan0 )
+3.) type "station wlan0 scan" and press enter.
+4.) type "station wlan0 get-networks" and press enter. This will list the available wifi networks.
+5.) type "station wlan0 connect YOUR-NETWORK-NAME" and press enter. This will ask you for your wifi password. Once you enter the password you will be connected to the internet.
+6.) type "exit" to leave the [ iwd ] menu and resume your arch installation.
+
+# test connection
+ping -c 4 archlinux.org
+
+# Update repositories
+pacman -Syy
+
+# make partition disk
+gdisk /dev/#your_whole_disk
+
+#create boot partition
+select (n)
+  first_sector ("press Enter")
+  last_sector type (+500M)
+  code:  hit       (EF00)
+  type (p)
+
+# create system partition
+  first_sector hit ("press Enter")
+  last_sector type ("amount of disk you want")
+  code:  hit       ("press Enter")
+  type (p)
+
+# create home partition
+  first_sector hit ("press Enter")
+  last_sector type ("amount of disk you want")
+  code:  hit       ("press Enter")
+  type (p)
+  type (w)
+
+# show partition
+  lsblk
+
+# format partitions
+  mkfs -t fat -F 32 /dev/partition1
+  mkfs -t ext4 /dev/partition2
+  mkfs -t ext4 /dev/partition3
+
+# show root partition "/"
+  ls -al /
+
+# mount "HOME" partition to /mnt
+  mount /dev/partition2 /mnt
+  
+  mkdir -p /mnt/boot/efi
+  mkdir /mnt/home
+
+# show 
+  ls -al /mnt
+
+# mount "boot" and "home" partition
+  mount /dev/partition1 /mnt/boot/efi
+  mount /dev/partition3 /mnt/home
+
+# Show mount partitions
+  lsblk
+
+# install system base archlinux
+  pacstrap /mnt base linux linux-firmware linux-headers base-devel vim bash-completion
+
+# see partition table
+  genfstab -U /mnt
+# write output in fstab
+  genfstab -U /mnt >> /mnt/etc/fstab
+
+# show fstab
+  cat /mnt/etc/fstab
+
+# switch to new enviroment
+  arch-chroot /mnt
+
+# install Grub, boot-manager and network-manager
+  pacman -S grub efibootmgr efivar networkmanager intel-ucode
+
+
+
+
+
+
+
+
+
+# If you have problems with adding GNU PGP keys with pacman-key, use the following command to specify an alternative server: 
+  1. sudo pacman-key --keyserver pool.sks-keyservers.net --recv-key KEYID
+  2. sudo pacman-key --keyserver keys.gnupg.net --recv-key KEYID
