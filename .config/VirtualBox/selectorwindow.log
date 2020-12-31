@@ -1,0 +1,17 @@
+00:00:02.153576 VirtualBox GUI VM Selector Window 6.1.16 r140961 linux.amd64 (Dec 15 2020 22:16:14) release log
+00:00:02.153582 Log opened 2020-12-29T19:22:11.211853000Z
+00:00:02.153583 Build Type: release
+00:00:02.153588 OS Product: Linux
+00:00:02.153591 OS Release: 5.9.14-arch1-1
+00:00:02.153595 OS Version: #1 SMP PREEMPT Sat, 12 Dec 2020 14:37:12 +0000
+00:00:02.153638 DMI Product Name: 20H1006DUS
+00:00:02.153660 DMI Product Version: ThinkPad E470
+00:00:02.153677 Firmware type: BIOS
+00:00:02.153754 Host RAM: 31569MB (30.8GB) total, 31327MB (30.5GB) available
+00:00:02.153761 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:02.153762 Process ID: 1245
+00:00:02.153764 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:02.153816 Qt version: 5.15.2
+00:00:02.481994 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:04.856490 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 4x25 x 944x1043
+00:00:04.860929 GUI: UIMediumEnumerator: Medium-enumeration finished!
