@@ -1,0 +1,30 @@
+00:00:00.447619 VirtualBox GUI VM Selector Window 6.1.16 r140961 linux.amd64 (Dec 15 2020 22:16:14) release log
+00:00:00.447624 Log opened 2021-01-01T23:24:27.253475000Z
+00:00:00.447626 Build Type: release
+00:00:00.447631 OS Product: Linux
+00:00:00.447634 OS Release: 5.9.14-arch1-1
+00:00:00.447637 OS Version: #1 SMP PREEMPT Sat, 12 Dec 2020 14:37:12 +0000
+00:00:00.447680 DMI Product Name: 20H1006DUS
+00:00:00.447700 DMI Product Version: ThinkPad E470
+00:00:00.447717 Firmware type: BIOS
+00:00:00.447801 Host RAM: 31569MB (30.8GB) total, 31330MB (30.5GB) available
+00:00:00.447808 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.447809 Process ID: 3544
+00:00:00.447810 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.447871 Qt version: 5.15.2
+00:00:00.509380 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:01.049504 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 4x25 x 944x1043
+00:00:01.057934 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:34.426115 GUI: UIMediumEnumerator: Medium with key={{1c8f0422-cadc-4ea7-bcac-1114d02d0599}} created
+00:00:34.952924 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:54.916619 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:59.843774 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:09:15.181783 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:09:16.292290 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:29:14.537250 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:29:28.671253 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:46:44.286416 GUI: UIMediumEnumerator: Medium with key={{e0eee1f3-4b44-4c9b-a0e3-d472008aae40}} created
+00:46:44.997591 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:46:54.507535 GUI: UIMediumEnumerator: Medium-enumeration finished!
+01:08:37.295164 GUI: UIMediumEnumerator: Medium-enumeration finished!
+01:08:37.295259 Log rotated - Log started 2021-01-01T23:24:27.253475000Z

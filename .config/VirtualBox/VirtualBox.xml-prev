@@ -9,13 +9,17 @@
   <Global>
     <ExtraData>
       <ExtraDataItem name="GUI/Details/Elements" value="general,system,preview,display,storage,audio,network,usb,sharedFolders,description"/>
-      <ExtraDataItem name="GUI/LastItemSelected" value="m=test"/>
-      <ExtraDataItem name="GUI/LastWindowPosition" value="8,29,944,1043"/>
-      <ExtraDataItem name="GUI/SplitterSizes" value="312,631"/>
+      <ExtraDataItem name="GUI/LastItemSelected" value="m=KaliLinux Clone"/>
+      <ExtraDataItem name="GUI/LastWindowPosition" value="0,21,1920,1059"/>
+      <ExtraDataItem name="GUI/RecentFolderCD" value="/home/jochimin/Downloads/kali-linux-2020-4-live-amd64-iso"/>
+      <ExtraDataItem name="GUI/RecentListCD" value="/home/jochimin/Downloads/kali-linux-2020-4-live-amd64-iso/kali-linux-2020.4-live-amd64.iso"/>
+      <ExtraDataItem name="GUI/SplitterSizes" value="699,1220"/>
+      <ExtraDataItem name="GUI/SuppressMessages" value="remindAboutAutoCapture,remindAboutMouseIntegration"/>
       <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Welcome,Details"/>
     </ExtraData>
     <MachineRegistry>
-      <MachineEntry uuid="{6b7a8479-471f-4a1e-8a53-c30ff5bd439c}" src="/home/jochimin/VirtualBox VMs/test/test.vbox"/>
+      <MachineEntry uuid="{5055a78f-97ca-49e6-9ab2-3cc5d7da37be}" src="/home/jochimin/VirtualBox VMs/KaliLinux/KaliLinux.vbox"/>
+      <MachineEntry uuid="{343a80b0-8dd8-4774-a9be-0daafa75cbdf}" src="/home/jochimin/VirtualBox VMs/KaliLinux Clone/KaliLinux Clone.vbox"/>
     </MachineRegistry>
     <NetserviceRegistry>
       <DHCPServers>

@@ -1,0 +1,60 @@
+00:00:00.024570 main     VirtualBox XPCOM Server 6.1.16 r140961 linux.amd64 (Dec 15 2020 22:16:14) release log
+00:00:00.024578 main     Log opened 2021-01-01T20:19:24.620152000Z
+00:00:00.024581 main     Build Type: release
+00:00:00.024591 main     OS Product: Linux
+00:00:00.024596 main     OS Release: 5.9.14-arch1-1
+00:00:00.024600 main     OS Version: #1 SMP PREEMPT Sat, 12 Dec 2020 14:37:12 +0000
+00:00:00.024682 main     DMI Product Name: 20H1006DUS
+00:00:00.024728 main     DMI Product Version: ThinkPad E470
+00:00:00.024754 main     Firmware type: BIOS
+00:00:00.024859 main     Host RAM: 31569MB (30.8GB) total, 30704MB (29.9GB) available
+00:00:00.024883 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.024885 main     Process ID: 9932
+00:00:00.024886 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.031689 main     IPC socket path: /tmp/.vbox-jochimin-ipc/ipcd
+00:00:00.183648 nspr-2   VirtualBox: object creation starts
+00:00:00.183899 nspr-2   Home directory: '/home/jochimin/.config/VirtualBox'
+00:00:00.209890 nspr-2   Loading settings file "/home/jochimin/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.222833 nspr-2   USB: Unknown USB device detected (idVendor: 0x0cf3, idProduct: 0xe500)
+00:00:00.223404 nspr-2   Successfully initialised host USB using sysfs
+00:00:00.250542 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.252686 nspr-2   HostDnsMonitor: initializing
+00:00:00.253419 nspr-2   NAT: resolv.conf: nameserver 148.103.0.73
+00:00:00.253456 nspr-2   NAT: resolv.conf: nameserver 190.94.1.177
+00:00:00.253486 nspr-2   HostDnsMonitor: updating information
+00:00:00.253527 nspr-2   HostDnsMonitor: old information
+00:00:00.253537 nspr-2     no server entries
+00:00:00.253546 nspr-2     no domain set
+00:00:00.253554 nspr-2     no search string entries
+00:00:00.253563 nspr-2   HostDnsMonitor: new information
+00:00:00.253571 nspr-2     server 1: 148.103.0.73
+00:00:00.253582 nspr-2     server 2: 190.94.1.177
+00:00:00.253590 nspr-2     no domain set
+00:00:00.253598 nspr-2     no search string entries
+00:00:00.277358 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.278567 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={027bc463-929c-40e8-bf16-fea557cd8e7e} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.303597 nspr-2   Loading settings file "/home/jochimin/VirtualBox VMs/KaliLinux/KaliLinux.vbox" with version "1.16-linux"
+00:00:00.305900 nspr-2   VirtualBox: object created
+00:00:08.716506 nspr-4   Launched VM: 4026540784 pid: 10007 (0x2717) frontend: GUI/Qt name: KaliLinux
+00:00:09.695637 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:09.794716 nspr-6   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:09.826650 nspr-6   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+01:09:43.436471 nspr-8   Saving settings file "/home/jochimin/VirtualBox VMs/KaliLinux/KaliLinux.vbox" with version "1.16-linux"
+01:09:44.128565 nspr-4   Saving settings file "/home/jochimin/VirtualBox VMs/KaliLinux/KaliLinux.vbox" with version "1.16-linux"
+01:09:46.078900 nspr-4   Launched VM: 3623928304 pid: 25911 (0x6537) frontend: GUI/Qt name: KaliLinux
+01:09:46.941407 nspr-4   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+01:09:47.008784 nspr-4   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+01:09:47.024180 nspr-6   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+01:09:56.544652 nspr-2   Saving settings file "/home/jochimin/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+01:09:56.612794 nspr-2   Saving settings file "/home/jochimin/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+01:09:56.672434 nspr-6   Saving settings file "/home/jochimin/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+01:09:56.728827 nspr-3   Saving settings file "/home/jochimin/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+01:13:30.058865 nspr-7   Saving settings file "/home/jochimin/VirtualBox VMs/KaliLinux/KaliLinux.vbox" with version "1.16-linux"
+01:13:30.742319 nspr-6   Saving settings file "/home/jochimin/VirtualBox VMs/KaliLinux/KaliLinux.vbox" with version "1.16-linux"
+01:13:36.353799 main     VirtualBox: object deletion starts
+01:13:36.353933 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/jochimin/VirtualBox VMs/KaliLinux/KaliLinux.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+01:13:36.355069 main     HostDnsMonitor: shutting down ...
+01:13:36.369339 main     HostDnsMonitor: shut down
+01:13:36.583300 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+01:13:41.383278 main     {00007fb2f4016a60} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+01:13:41.384000 main     VirtualBox: object deleted
