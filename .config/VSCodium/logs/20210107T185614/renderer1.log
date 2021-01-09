@@ -1,0 +1,1 @@
+[2021-01-07 18:58:01.299] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/jochimin/Documents/projects/django/.vscode'

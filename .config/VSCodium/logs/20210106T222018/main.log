@@ -1,0 +1,4 @@
+[2021-01-06 22:20:18.987] [main] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/jochimin/.config/VSCodium/User'
+[2021-01-06 22:20:19.233] [main] [info] update#setState idle
+[2021-01-06 22:20:49.235] [main] [info] update#setState checking for updates
+[2021-01-06 22:20:49.509] [main] [info] update#setState idle

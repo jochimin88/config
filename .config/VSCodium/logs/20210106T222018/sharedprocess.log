@@ -1,0 +1,33 @@
+[2021-01-06 22:20:22.483] [sharedprocess] [info] main {"machineId":"96877f4a143e150389fec6383037e68c50a92c901bc141d3e14f98eca593158d","windowId":2}
+[2021-01-06 22:20:22.502] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/jochimin/.config/VSCodium/User/snippets'
+[2021-01-06 22:21:02.497] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-01-06 22:21:10.675] [sharedprocess] [info] Installing extension: ms-python.python
+[2021-01-06 22:21:23.684] [sharedprocess] [info] Installing extension: esbenp.prettier-vscode
+[2021-01-06 22:21:34.922] [sharedprocess] [info] Installing extension: batisteo.vscode-django
+[2021-01-06 22:21:38.270] [sharedprocess] [info] Downloaded extension: batisteo.vscode-django undefined
+[2021-01-06 22:21:38.498] [sharedprocess] [info] Extracted extension to /home/jochimin/.vscode-oss/extensions/.batisteo.vscode-django-1.0.0: batisteo.vscode-django
+[2021-01-06 22:21:38.499] [sharedprocess] [info] Renamed to /home/jochimin/.vscode-oss/extensions/batisteo.vscode-django-1.0.0
+[2021-01-06 22:21:38.499] [sharedprocess] [info] Installation completed. batisteo.vscode-django
+[2021-01-06 22:21:38.552] [sharedprocess] [info] Extensions installed successfully: batisteo.vscode-django
+[2021-01-06 22:21:59.416] [sharedprocess] [info] Installing extension: dsznajder.es7-react-js-snippets
+[2021-01-06 22:22:00.355] [sharedprocess] [info] Downloaded extension: dsznajder.es7-react-js-snippets undefined
+[2021-01-06 22:22:00.435] [sharedprocess] [info] Extracted extension to /home/jochimin/.vscode-oss/extensions/.dsznajder.es7-react-js-snippets-3.1.0: dsznajder.es7-react-js-snippets
+[2021-01-06 22:22:00.436] [sharedprocess] [info] Renamed to /home/jochimin/.vscode-oss/extensions/dsznajder.es7-react-js-snippets-3.1.0
+[2021-01-06 22:22:00.436] [sharedprocess] [info] Installation completed. dsznajder.es7-react-js-snippets
+[2021-01-06 22:22:00.477] [sharedprocess] [info] Extensions installed successfully: dsznajder.es7-react-js-snippets
+[2021-01-06 22:22:03.085] [sharedprocess] [info] Downloaded extension: esbenp.prettier-vscode undefined
+[2021-01-06 22:22:03.479] [sharedprocess] [info] Extracted extension to /home/jochimin/.vscode-oss/extensions/.esbenp.prettier-vscode-5.8.0: esbenp.prettier-vscode
+[2021-01-06 22:22:03.480] [sharedprocess] [info] Renamed to /home/jochimin/.vscode-oss/extensions/esbenp.prettier-vscode-5.8.0
+[2021-01-06 22:22:03.480] [sharedprocess] [info] Installation completed. esbenp.prettier-vscode
+[2021-01-06 22:22:03.546] [sharedprocess] [info] Extensions installed successfully: esbenp.prettier-vscode
+[2021-01-06 22:23:25.589] [sharedprocess] [info] Installing extension: xabikos.javascriptsnippets
+[2021-01-06 22:23:26.048] [sharedprocess] [info] Downloaded extension: xabikos.javascriptsnippets undefined
+[2021-01-06 22:23:26.084] [sharedprocess] [info] Extracted extension to /home/jochimin/.vscode-oss/extensions/.xabikos.javascriptsnippets-1.8.0: xabikos.javascriptsnippets
+[2021-01-06 22:23:26.084] [sharedprocess] [info] Renamed to /home/jochimin/.vscode-oss/extensions/xabikos.javascriptsnippets-1.8.0
+[2021-01-06 22:23:26.086] [sharedprocess] [info] Installation completed. xabikos.javascriptsnippets
+[2021-01-06 22:23:26.128] [sharedprocess] [info] Extensions installed successfully: xabikos.javascriptsnippets
+[2021-01-06 22:25:13.223] [sharedprocess] [info] Downloaded extension: ms-python.python undefined
+[2021-01-06 22:25:16.157] [sharedprocess] [info] Extracted extension to /home/jochimin/.vscode-oss/extensions/.ms-python.python-2020.10.332292344: ms-python.python
+[2021-01-06 22:25:16.158] [sharedprocess] [info] Renamed to /home/jochimin/.vscode-oss/extensions/ms-python.python-2020.10.332292344
+[2021-01-06 22:25:16.167] [sharedprocess] [info] Installation completed. ms-python.python
+[2021-01-06 22:25:16.243] [sharedprocess] [info] Extensions installed successfully: ms-python.python

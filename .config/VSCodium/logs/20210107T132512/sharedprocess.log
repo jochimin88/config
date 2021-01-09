@@ -1,0 +1,20 @@
+[2021-01-07 13:25:17.097] [sharedprocess] [info] main {"machineId":"96877f4a143e150389fec6383037e68c50a92c901bc141d3e14f98eca593158d","windowId":2}
+[2021-01-07 13:25:57.201] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-01-07 14:31:50.078] [sharedprocess] [info] Installing extension: chrisru.vscode-nightsky
+[2021-01-07 14:31:50.865] [sharedprocess] [info] Downloaded extension: chrisru.vscode-nightsky undefined
+[2021-01-07 14:31:51.037] [sharedprocess] [info] Extracted extension to /home/jochimin/.vscode-oss/extensions/.chrisru.vscode-nightsky-2.0.0: chrisru.vscode-nightsky
+[2021-01-07 14:31:51.038] [sharedprocess] [info] Renamed to /home/jochimin/.vscode-oss/extensions/chrisru.vscode-nightsky-2.0.0
+[2021-01-07 14:31:51.044] [sharedprocess] [info] Installation completed. chrisru.vscode-nightsky
+[2021-01-07 14:31:51.086] [sharedprocess] [info] Extensions installed successfully: chrisru.vscode-nightsky
+[2021-01-07 14:32:06.038] [sharedprocess] [info] Installing extension: zewish.greyburst
+[2021-01-07 14:32:06.824] [sharedprocess] [info] Downloaded extension: zewish.greyburst undefined
+[2021-01-07 14:32:06.910] [sharedprocess] [info] Extracted extension to /home/jochimin/.vscode-oss/extensions/.zewish.greyburst-0.0.5: zewish.greyburst
+[2021-01-07 14:32:06.910] [sharedprocess] [info] Renamed to /home/jochimin/.vscode-oss/extensions/zewish.greyburst-0.0.5
+[2021-01-07 14:32:06.913] [sharedprocess] [info] Installation completed. zewish.greyburst
+[2021-01-07 14:32:06.953] [sharedprocess] [info] Extensions installed successfully: zewish.greyburst
+[2021-01-07 14:32:36.673] [sharedprocess] [info] Installing extension: mtayllan.moonokai
+[2021-01-07 14:32:37.345] [sharedprocess] [info] Downloaded extension: mtayllan.moonokai undefined
+[2021-01-07 14:32:37.450] [sharedprocess] [info] Extracted extension to /home/jochimin/.vscode-oss/extensions/.mtayllan.moonokai-0.0.4: mtayllan.moonokai
+[2021-01-07 14:32:37.451] [sharedprocess] [info] Renamed to /home/jochimin/.vscode-oss/extensions/mtayllan.moonokai-0.0.4
+[2021-01-07 14:32:37.455] [sharedprocess] [info] Installation completed. mtayllan.moonokai
+[2021-01-07 14:32:37.564] [sharedprocess] [info] Extensions installed successfully: mtayllan.moonokai
